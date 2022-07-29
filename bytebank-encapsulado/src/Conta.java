@@ -2,7 +2,7 @@ public class Conta {
     private double saldo;
     private int agencia;
     private int numero;
-    Cliente titular;
+    private Cliente titular;
     private static int total;
 
     public Conta(int agencia, int numero) {
