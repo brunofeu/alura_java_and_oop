@@ -1,13 +1,9 @@
 public class TesteConexao {
     public static void main(String[] args) {
-        Conexao con = new Conexao();
-        try {
-            con.leDados();
-            con.fecha();
+        try (Conexao conexao = new Conexao()){ // esta forma de Try torna o finally desnecessário
+            conexao.leDados();
         } catch (IllegalStateException ex) {
             System.out.println("Erro na conexão");
-        } finally {
-            con.fecha();
         }
     }
 }
