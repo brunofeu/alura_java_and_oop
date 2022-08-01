@@ -17,8 +17,6 @@ W
 'bytebank-heranca-conta/src/Cliente.java,6/f/6f3b2fe4cc0b15bf8b2f679c3709eec82ec7aa36
 S
 #bytebank-encapsulado/src/Conta.java,c/c/cc8932a4e54283a1adc2ee094e915dbbbbfd261f
-U
-%bytebank-heranca-conta/src/Conta.java,c/c/cc135a0747ec7837adbe0912f093c5e4693e8b59
 ]
 -bytebank-heranca-conta/src/ContaPoupanca.java,1/4/1440ce083eca3c2d247f36aa2acea7202d33660f
 U
